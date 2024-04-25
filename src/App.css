@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0; /* Set a light background color */
+  font-family: Arial, sans-serif; /* Use a common font */
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 40px 0; /* Add padding to the header */
+  color: white;
+}
+
+.App-logo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px; /* Add some spacing below the logo */
+}
+
+.App-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the link bold */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
